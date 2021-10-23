@@ -22,18 +22,18 @@ A unified collection of health indices and health indicators eg bmi,bai,corp ind
 The package can be found on pypi hence you can install it using pip
 
 #### Installation
-'''bash
+```bash
 pip install health_indices
 ```
 
 ### Usage
 #### Using the short forms or abbreviated forms of indices
-'''python
+```python
 >>> from health_indices import bmi,bai
 >>> bmi(54, 1.70)
 ```
 #### Using the long form of indices
-'''python
+```python
 >>> from health_indices import bodymassindex
 >>> bodymassindex(54, 1.70)
 ```
@@ -53,8 +53,8 @@ Body Mass Index is =>  18.0
 >>> a
 18.0
 >>>
-
 ```
+
 ### Contribution 
 Contributions are welcome Notice a bug let us know. Thanks
 
